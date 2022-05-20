@@ -6,6 +6,12 @@ Author: Tomoyoshi Kimura
 
 This is the cow recognition project that uses Faster RCNN techniques on tiles of an image. This project uses a pretrained FPN Resnet 50 model for object detection, and we uses tiles to increase the size of distant cows to increase the accuracy. There are mainly two parts of this project – Tiled Cow recognition (`tile_fasterrcnn.ipynb`) and coordinate conversion (`image_to_geolocation.ipynb`). 
 
+**To install the dependencies**
+
+```
+pip3 install -r requirements.txt
+```
+
 ### Directory
 
 To ensure that the program works as expected, the following format of the directory is strongly recommended
@@ -26,6 +32,7 @@ cow_recognition
 	├── season_n
 		├── ...
 ├── image_to_geolocation.ipynb
+├── requirements.txt
 └── tile_fasterrcnn.ipynb
 ```
 
